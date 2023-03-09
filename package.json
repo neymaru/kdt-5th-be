@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello, Node.js\""
+    "server": "nodemon ./03_express/05.router.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "left-pad": "^1.3.0"
   },
   "devDependencies": {
+    "ejs": "^3.1.8",
     "eslint": "^8.35.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
